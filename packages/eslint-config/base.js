@@ -4,6 +4,8 @@ import eslintConfigPrettier from "eslint-config-prettier";
 import turboPlugin from "eslint-plugin-turbo";
 import onlyWarn from "eslint-plugin-only-warn";
 
+console.log("asdflkajsdf");
+
 /**
  * A shared ESLint configuration for the repository.
  *
@@ -27,6 +29,7 @@ export const config = [
     },
     rules: {
       "turbo/no-undeclared-env-vars": "warn",
+      "no-console": "error",
     },
   },
   {
